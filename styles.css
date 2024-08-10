@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000; /* Черный фон */
+    color: #f5f7fa; /* Белый цвет текста */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1e1e1e; /* Темно-серый фон контейнера */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #ffa500; /* Оранжевый цвет заголовка */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #f5f7fa; /* Белый цвет текста меток */
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #333; /* Темно-серая граница */
+    border-radius: 8px;
+    background: #2c2c2c; /* Темно-серый фон выпадающего списка */
+    color: #f5f7fa; /* Белый цвет текста */
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #ffa500; /* Оранжевая граница при фокусе */
+}
+
+button {
+    background-color: #ffa500; /* Оранжевый фон кнопок */
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff8c00; /* Темнее оранжевый при наведении */
+}
+
+.hidden {
+    display: none;
+}
+
+.progress-bar {
+    background-color: #333; /* Темно-серая фон полосы прогресса */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 25px;
+    height: 35px;
+    position: relative;
+}
+
+.progress-bar div {
+    height: 100%;
+    background-color: #ffa500; /* Оранжевый цвет прогресса */
+    width: 0;
+    transition: width 0.5s;
+}
+
+#progressText {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.key-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.key-item input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #444; /* Темно-серая граница */
+    border-radius: 8px;
+    margin-right: 12px;
+    background: #2c2c2c; /* Темно-серый фон поля ввода */
+    color: #f5f7fa; /* Белый цвет текста */
+}
+
+.copyKeyBtn {
+    background-color: #ffa500; /* Оранжевый фон кнопок "Копировать" */
+    border: none;
+    padding: 12px 20px;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copyKeyBtn:hover {
+    background-color: #ff8c00; /* Темнее оранжевый при наведении */
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #777; /* Серый цвет текста в подвале */
+}
+
+#copyStatus {
+    margin-top: 15px;
+    color: #ffa500; /* Оранжевый цвет сообщения о копировании */
+}
